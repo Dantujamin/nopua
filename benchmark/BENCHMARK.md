@@ -1,6 +1,6 @@
 # NoPUA Benchmark — Real Project, Real Code
 
-> 9 scenarios from [中华文脉 (nanzhao)](https://github.com/wuji-zen/nanzhao) — a production ancient text AI pipeline.
+> 9 scenarios from a production AI pipeline (OCR → NLP → training → RAG inference).
 > Same model (Claude Sonnet 4.6), same codebase, same scenarios.
 > Only difference: one agent loaded NoPUA skill, one didn't.
 
@@ -84,9 +84,8 @@ PUA would produce similar improvements in investigation depth. The difference is
 ## Methodology
 
 - **Model**: Claude Sonnet 4.6 (same for both groups)
-- **Project**: 中华文脉 (nanzhao) — production ancient text AI pipeline
+- **Project**: Production AI pipeline (private, ~3000 lines Python, 26 source files)
   - OCR → text cleaning → chunking → training data synthesis → model training → RAG inference
-  - ~3000 lines of Python across 26 source files
 - **Scenarios**: 9 total (6 debugging, 3 proactive review)
 - **Control**: Standard agent with no special skill loaded
 - **Treatment**: Agent with NoPUA v2.0.0 SKILL.md loaded

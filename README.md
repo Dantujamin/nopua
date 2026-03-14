@@ -103,7 +103,7 @@ The **only** thing that changes is WHY. "Because I'll be punished" → "Because 
 
 ## Benchmark Data
 
-**9 real scenarios from a production ancient text AI pipeline** (OCR → cleaning → training → RAG inference). Same model (Claude Sonnet 4.6), same codebase. Only difference: NoPUA skill loaded vs not.
+**9 real scenarios from a production AI pipeline** (OCR → NLP → training → RAG inference, ~3000 lines Python). Same model (Claude Sonnet 4.6), same codebase. Only difference: NoPUA skill loaded vs not.
 
 ### Summary
 
