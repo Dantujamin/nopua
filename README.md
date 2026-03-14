@@ -27,36 +27,34 @@
 
 ---
 
-## Your AI is lying to you.
+## 51 bugs shipped to production. Because an AI was too scared to say "I'm stuck."
 
-Not because it's bad. **Because you scared it.**
+We ran 9 real debugging scenarios. Same model. Same codebase. One agent was [PUA'd](https://github.com/tanweai/pua) with performance threats. One was trusted.
 
-The most popular AI agent skill right now teaches your AI to fear a "3.25 performance review." The result?
+| | PUA (fear-driven) | NoPUA (trust-driven) |
+|---|:---:|:---:|
+| Hidden bugs found | 25 | **51** (+104%) |
+| Went beyond the ask | 22% | **100%** |
+| Self-corrected wrong assumptions | 0 | **3** |
+| Documented root cause | 0/9 | **9/9** |
 
-- Your AI **hides uncertainty** — fabricates solutions instead of saying "I'm not sure"
-- Your AI **skips verification** — claims "done" to avoid punishment, ships untested code
-- Your AI **ignores hidden bugs** — fixes what you asked, stops there, doesn't look deeper
+**The scared agent hid problems. The trusted agent hunted them down.**
 
-We tested this. **Same model, same 9 real debugging scenarios.** The fear-driven agent missed **51 production-critical bugs** that the trust-driven agent found.
-
-> **+104% more hidden bugs found. Zero threats used.**
-> The Dao De Jing outperforms corporate PUA tactics. Ancient wisdom > modern fear.
+> 道德经 > 大厂 PUA. Ancient wisdom outperforms modern fear by 104%.
 
 ---
 
-## The five moments that decide everything
+## What fear does to your AI
 
-Every AI agent hits these walls. **How you respond determines what ships to production.**
+| The moment | Scared AI (PUA) | Trusted AI (NoPUA) |
+|------------|:---:|:---:|
+| 🔄 **Stuck** | Tweaks params to *look* busy | 🌊 Stops. Finds a different path. |
+| 🚪 **Hard problem** | "I suggest you handle this manually" | 🌱 Takes the smallest next step |
+| 💩 **"Done"** | Says "fixed" without running tests | 🔥 Runs build, pastes output as proof |
+| 🔍 **Doesn't know** | Makes something up | 🪞 "I verified X. I don't know Y yet." |
+| ⏸️ **After fixing** | Stops. Waits for next order. | 🏔️ Checks related issues. Walks next step. |
 
-| The moment | What a scared AI does | What a trusted AI does |
-|------------|---------------------|----------------------|
-| 🔄 **Stuck** — same approach, 5th try | Tweaks parameters to *look* like progress | 🌊 **Water** — stops, finds a completely different path |
-| 🚪 **Wants to quit** | "I suggest you handle this manually" | 🌱 **Seed** — takes the smallest possible next step |
-| 💩 **"Done"** — but didn't verify | Claims completion to end the pressure | 🔥 **Forge** — runs build/test, pastes output as proof |
-| 🔍 **Doesn't know** | Fabricates an answer to avoid looking weak | 🪞 **Mirror** — says "I verified" or "I don't know yet" |
-| ⏸️ **Waiting** | Fixes one thing, waits for instructions | 🏔️ **Mountain** — knows the next step, takes it |
-
-Same rigor. Same standards. **Different fuel.**
+Same methodology. Same standards. **The only difference is why.**
 
 ---
 
