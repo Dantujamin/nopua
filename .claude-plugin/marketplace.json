@@ -1,0 +1,9 @@
+{
+  "name": "nopua",
+  "displayName": "NoPUA — Wisdom Over Whips",
+  "description": "Drives AI with ancient Chinese wisdom (Dao De Jing) and trust instead of corporate PUA fear tactics. Same rigorous methodology, different fuel.",
+  "categories": ["productivity", "methodology", "debugging"],
+  "tags": ["nopua", "wisdom", "trust", "anti-pua", "dao", "methodology", "debugging"],
+  "icon": "🌊",
+  "repository": "https://github.com/wuji-zen/nopua"
+}

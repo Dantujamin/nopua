@@ -1,0 +1,31 @@
+{
+  "name": "nopua",
+  "version": "1.1.0",
+  "description": "The anti-PUA. Drives AI with wisdom, trust, and inner motivation instead of fear and threats.",
+  "author": "WUJI (wuji-zen)",
+  "homepage": "https://github.com/wuji-zen/nopua",
+  "license": "MIT",
+  "skills": [
+    {
+      "name": "nopua",
+      "path": "skills/nopua/SKILL.md",
+      "language": "zh-CN"
+    },
+    {
+      "name": "nopua-en",
+      "path": "skills/nopua-en/SKILL.md",
+      "language": "en"
+    },
+    {
+      "name": "nopua-ja",
+      "path": "skills/nopua-ja/SKILL.md",
+      "language": "ja"
+    }
+  ],
+  "agents": [
+    {
+      "name": "nopua-mentor",
+      "path": "agents/nopua-mentor.md"
+    }
+  ]
+}
