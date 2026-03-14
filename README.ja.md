@@ -22,7 +22,7 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT License">
 </p>
 
-**[🇨🇳 中文](README_CN.md)** | **[🇺🇸 English](README.md)** | **🇯🇵 日本語**
+**[🇨🇳 中文](README.zh-CN.md)** | **[🇺🇸 English](README.md)** | **🇯🇵 日本語**
 
 ---
 
