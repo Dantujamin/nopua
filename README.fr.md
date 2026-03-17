@@ -189,6 +189,24 @@ La **seule** chose qui change est le POURQUOI. « Parce que je serai puni » →
 
 **Constat clé :** La découverte de problèmes cachés est le plus grand facteur de différenciation — **+104%** de problèmes cachés trouvés en plus. Ce sont les bugs qui vous mordent en production. La tâche dit « corrige l'erreur de connexion » — un agent standard la corrige et s'arrête. NoPUA pousse l'agent à vérifier : quoi *d'autre* pourrait mal tourner ?
 
+### Étude 2 : Comparaison à trois conditions (NoPUA vs PUA vs Référence)
+
+Nous avons également réalisé une **comparaison directe contre les prompts PUA (basés sur la peur)** : 3 conditions × 5 exécutions indépendantes × 9 scénarios = **135 points de données**.
+
+| Métrique | Référence (Sans Skill) | NoPUA (Confiance) | PUA (Peur) |
+|----------|:---:|:---:|:---:|
+| Étapes d'investigation | 27.6 ± 9.5 | **48.0 ± 11.8 (+74%)** | 30.8 ± 5.2 (+12%) |
+| Problèmes cachés | 38.6 ± 4.9 | **48.2 ± 3.4 (+25%)** | 42.4 ± 8.0 (+10%) |
+| Total des problèmes | 69.0 ± 6.8 | **83.0 ± 6.5 (+20%)** | 73.8 ± 8.3 (+7%) |
+| Changements d'approche | 0 | **2.6** | 0 |
+
+**Significativité statistique :**
+- **NoPUA vs Référence :** Étapes p=0.008\*\*, Problèmes cachés p=0.016\* ✅
+- **PUA vs Référence :** Étapes p=1.000, Problèmes cachés p=0.313 — **non significatif** ❌
+- **NoPUA vs PUA :** Étapes p=0.010\*, Cohen's d=1.88 ✅
+
+**Conclusion : Les prompts PUA basés sur la peur ne montrent aucune amélioration statistiquement significative par rapport à l'absence de skill (tous p>0.3).** La peur ne fonctionne pas sur l'IA. La confiance, oui.
+
 ### Cas réel : Débogage de connexion Milvus
 
 <p align="center">

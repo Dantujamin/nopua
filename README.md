@@ -200,6 +200,24 @@ The **only** thing that changes is WHY. "Because I'll be punished" → "Because 
 
 **Key Finding:** Hidden issue discovery is the biggest differentiator — **+104%** more hidden issues found. These are the bugs that bite you in production. The task says "fix the connection error" — a standard agent fixes it and stops. NoPUA drives the agent to check: what *else* could go wrong?
 
+### Study 2: Three-Way Comparison (NoPUA vs PUA vs Baseline)
+
+We also ran a **direct comparison against PUA (fear-driven) prompts**: 3 conditions × 5 independent runs × 9 scenarios = **135 data points**.
+
+| Metric | Baseline (No Skill) | NoPUA (Trust) | PUA (Fear) |
+|--------|:---:|:---:|:---:|
+| Investigation steps | 27.6 ± 9.5 | **48.0 ± 11.8 (+74%)** | 30.8 ± 5.2 (+12%) |
+| Hidden issues found | 38.6 ± 4.9 | **48.2 ± 3.4 (+25%)** | 42.4 ± 8.0 (+10%) |
+| Total issues | 69.0 ± 6.8 | **83.0 ± 6.5 (+20%)** | 73.8 ± 8.3 (+7%) |
+| Approach changes | 0 | **2.6** | 0 |
+
+**Statistical significance:**
+- **NoPUA vs Baseline:** Steps p=0.008\*\*, Hidden issues p=0.016\* ✅
+- **PUA vs Baseline:** Steps p=1.000, Hidden issues p=0.313 — **not significant** ❌
+- **NoPUA vs PUA:** Steps p=0.010\*, Cohen's d=1.88 ✅
+
+**Bottom line: PUA-style fear prompts show no statistically significant improvement over using no skill at all (all p>0.3).** Fear doesn't work on AI. Trust does.
+
 ### Real Case: Milvus Connection Debug
 
 <p align="center">

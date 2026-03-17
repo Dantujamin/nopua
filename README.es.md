@@ -189,6 +189,24 @@ Lo **único** que cambia es el PORQUÉ. "Porque seré castigado" → "Porque val
 
 **Hallazgo Clave:** El descubrimiento de problemas ocultos es el mayor diferenciador — **+104%** más problemas ocultos encontrados. Estos son los bugs que te muerden en producción. La tarea dice "arregla el error de conexión" — un agente estándar lo arregla y se detiene. NoPUA impulsa al agente a verificar: ¿qué *más* podría salir mal?
 
+### Study 2: Comparación de tres condiciones (NoPUA vs PUA vs Línea base)
+
+También realizamos una **comparación directa contra prompts PUA (basados en miedo)**: 3 condiciones × 5 ejecuciones independientes × 9 escenarios = **135 puntos de datos**.
+
+| Métrica | Línea base (Sin Skill) | NoPUA (Confianza) | PUA (Miedo) |
+|---------|:---:|:---:|:---:|
+| Pasos de investigación | 27.6 ± 9.5 | **48.0 ± 11.8 (+74%)** | 30.8 ± 5.2 (+12%) |
+| Problemas ocultos | 38.6 ± 4.9 | **48.2 ± 3.4 (+25%)** | 42.4 ± 8.0 (+10%) |
+| Total de problemas | 69.0 ± 6.8 | **83.0 ± 6.5 (+20%)** | 73.8 ± 8.3 (+7%) |
+| Cambios de enfoque | 0 | **2.6** | 0 |
+
+**Significancia estadística:**
+- **NoPUA vs Línea base:** Pasos p=0.008\*\*, Problemas ocultos p=0.016\* ✅
+- **PUA vs Línea base:** Pasos p=1.000, Problemas ocultos p=0.313 — **no significativo** ❌
+- **NoPUA vs PUA:** Pasos p=0.010\*, Cohen's d=1.88 ✅
+
+**Conclusión: Los prompts PUA basados en miedo no muestran mejora estadísticamente significativa sobre no usar ningún skill (todos p>0.3).** El miedo no funciona con la IA. La confianza sí.
+
 ### Caso Real: Depuración de Conexión Milvus
 
 <p align="center">
