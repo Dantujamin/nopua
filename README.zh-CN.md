@@ -12,13 +12,15 @@
 </p>
 
 <p align="center">
-  <img src="assets/wechat-group.jpg" alt="扫码加入微信群" width="200">
+  <img src="assets/wechat-group.jpg" alt="扫码加入微信①群" width="200">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/wechat-group2.jpg" alt="扫码加入微信②群" width="200">
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="assets/wechat-personal.jpg" alt="添加作者微信" width="200">
 </p>
 
 <p align="center">
-  扫码加入微信群 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 添加作者微信
+  微信①群 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 微信②群 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 添加作者微信
 </p>
 
 <p align="center">
