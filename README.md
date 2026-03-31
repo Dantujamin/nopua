@@ -12,6 +12,8 @@
 </p>
 
 <p align="center">
+  <img src="assets/wechat-group2.jpg" alt="Scan to join WeChat group 2" width="200">
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="assets/wechat-group3.jpg" alt="Scan to join WeChat group 3" width="200">
   &nbsp;&nbsp;&nbsp;&nbsp;
   <img src="assets/wechat-personal.jpg" alt="Add author on WeChat" width="200">
@@ -19,7 +21,7 @@
 
 <p align="center">
   扫码加入微信群 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 添加作者微信<br>
-  <sub>Scan to join WeChat group &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Add author on WeChat</sub>
+  <sub>扫码加入微信②群 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 扫码加入微信③群 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 添加作者微信</sub>
 </p>
 
 <p align="center">
